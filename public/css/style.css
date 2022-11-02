@@ -1,0 +1,599 @@
+body{
+    max-width: 1440px;
+    background-color: rgb(236, 236, 236)!important;
+}
+
+/*ログイン、新規登録、pass再設定の共通header */
+nav.header_nav{
+    background-color: rgb(155, 155, 155);
+    padding: 5px 0;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+}
+
+a.header_logo{
+    padding: 5px 0 5px;
+    font-size: 35px;
+    font-family: 'DIN Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a.header_logo:hover{
+    color: rgb(227, 228, 229);
+    transition: all 0.5s ease 0s;
+}
+
+img.top_img{
+    width: 45px;
+    display: inline;
+}
+
+/* ログイン、新規登録、pass再設定の共通footer */
+footer{
+    margin-bottom: 0!important;
+}
+img.footer_img{
+    width: 100%;
+    bottom: 0; /*下に固定*/
+}
+
+/*ログイン後の共通header */
+nav.headernav2{
+    background-color: rgb(155, 155, 155);
+}
+
+.header_2{ 
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.poji{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.headerlink{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header_2a{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 20px;
+}
+
+.header_a{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.header_a:hover{
+    color: rgb(227, 228, 229);
+    transition: all 0.5s ease 0s;
+}
+
+.navlink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.nav_a{
+    padding-left: 10px;
+}
+
+.logout{
+    color: black;
+    display: inline;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.logout:hover{
+    color: rgb(227, 228, 229);
+    transition: all 0.5s ease 0s;
+}
+
+/*ログイン後の共通footer */
+.footer-2{
+    background-color: rgb(155, 155, 155);
+}
+
+.copy_p{
+    text-align: center;
+}
+
+/* ログイン画面 */
+main{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2.login_h2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Osaka', sans-serif;
+    font-weight: bold;
+}
+
+.login_form{
+    text-align: center;
+    margin: 50px auto 80px;
+    width: 300px;
+}
+
+label.form-label{
+    text-align: center;
+}
+
+.login_btn{
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+a.signup_a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.pass_reset_a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.signup_a:hover{
+    color: rgb(167, 168, 168);
+    transition: all 0.5s ease 0s;
+}
+
+a.pass_reset_a:hover{
+    color: rgb(167, 168, 168);
+    transition: all 0.5s ease 0s;
+}
+
+
+/* 新規会員登録 */
+h2.signup_h2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Osaka', sans-serif;
+    font-weight: bold;
+}
+
+
+/* メイン情報 */
+/* アカウント情報 */
+h2.acount_h2{
+    margin: 20px 0 12px;
+    text-align: center;
+    font-family: 'Osaka', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.acoun_cont{
+    width: 80%;
+    margin: 0 auto 20px;
+    padding: 0.2em 0.5em;
+    background: #d5d5d5;
+    box-shadow: 0px 0px 0px 10px #d5d5d5;
+    border: dashed 2px white;
+}
+
+.acount_a{
+    display: block; 
+}
+
+a.acount_text{
+    display: flex;
+}
+
+a.a{
+    color: black;
+    text-decoration: none;
+}
+
+a.a:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+}
+
+/* top画面 */
+span.user_name{
+    font-weight: bold;
+}
+
+.posts{
+    display: flex;   
+}
+
+.posts_cont {
+    text-align: center;
+}
+
+img.posts_img{
+    width: 45%;
+    margin: 30px auto 0;
+}
+
+img.posts2_img{
+    width: 70%;
+    margin: 30px auto 5px;
+}
+
+.allpost{
+    display: flex;
+    /* width: 45%; */
+    /* width: 100%; */
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    /* float: left; */
+    /* flex-wrap: wrap; */
+    /* max-width: 980px; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.main_display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+}
+
+/* いいねボタン */
+span.good{
+    display: flex;
+    width: auto;
+    height: 30px;
+}
+
+.liked {
+    color: rgb(252, 94, 120);
+  }
+
+
+/* a.like-toggle {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.like-toggle:hover {
+    text-decoration: none;
+} */
+
+
+
+/*アカウント編集ボタン */
+a.acount_edita{
+    color: black;
+    text-decoration: none;
+}
+
+a.a:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+}
+
+/* 投稿部分 */
+h2.main_h2{
+    margin: 20px 0 10px;
+    font-family: 'Osaka', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3.main_h3{
+    margin: 20px 0px 0px;
+    font-family: 'Osaka', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a.main_a{
+    color: black;
+    text-decoration: none;
+}
+
+a.main_a:hover{
+    color: rgb(156, 156, 156);
+    transition: all 0.5s ease 0s;
+}
+
+
+
+.main_cont{
+    width: 30%;
+}
+
+/* マインページのカテゴリー */
+.category_ttl{
+    /* margin: 10px auto; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.maincat_a{
+    width: 100;
+    color: black;
+    text-decoration: none;
+
+}
+
+a.maincat_a:hover{
+    color: rgb(156, 156, 156);
+    transition: all 0.5s ease 0s;
+}
+
+/* アカウント情報 */
+table{
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 70%;
+}
+
+/* フォローしてる人の投稿一覧 */
+/* table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  table tr{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+  }
+  
+  table tr:hover{
+    background-color: #d4f0fd;
+  }
+  
+  table th,table td{
+    text-align: center;
+    width: 25%;
+    padding: 15px 0;
+  }
+  
+  table td.icon{
+    background-size: 35px;
+    background-position: left 5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  } */
+
+  /* table.followposts_table{
+    width: 80%;
+    margin: 0 auto;
+  } */
+
+  .posts_list{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+/* 皆の投稿一覧 */
+.one_cont{
+    background-color: #dddddd;
+    margin: 5px;
+    padding: 5px 0 5px 10px;
+}
+
+a.detail_btn{
+    color: #2a2929;
+
+}
+
+/* 自分の投稿一覧 */
+.one_cont2{
+    background-color: #dddddd;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    width: 400px;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+/* カテゴリー別投稿一覧 */
+h4.h4{
+    margin: 20px 0 10px;
+    font-family: 'Osaka', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* カテゴリー別投稿詳細 */
+
+.detail{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.good{
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+th.th_del{
+    text-align: right;
+    padding-left: 30px;
+}
+
+td.th_del{
+    text-align: right;
+}
+
+.post_btn{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+a.a_btn{
+    background-color: #9a9898;
+    padding: 5px 30px;
+    margin: 0 20px;
+}
+
+a.a_btn:hover{
+    background-color: #bfbdbd;
+    transition: all 0.5s ease 0s;
+}
+
+/* 追加投稿 */
+h5.h5{
+    margin: 10px 0 10px;
+    font-family: 'Osaka', sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+form.post_form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+button.create_btn{
+    background-color: #9a9898;
+    padding: 5px 30px;
+    margin: 10px auto;
+}
+
+button.create_btn:hover{
+    color: #ffffff!important;
+    background-color: #bfbdbd;
+    transition: all 0.5s ease 0s;
+}
+
+input.detail_btn{
+    background-color: #9a9898;
+    padding: 5px 30px;
+    margin: 10px 20px;
+}
+
+/* 投稿詳細ボタン */
+a.detail_a{
+    text-align: center;
+}
+
+/* アカウント編集 */
+form.useredit_form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.edit_btn{
+    text-align: center;
+}
+
+button.detail_btn{
+    background-color: #9a9898;
+    padding: 5px 30px;
+    margin: 10px 20px;
+}
+
+
+button.detail_btn:hover{
+    color: #ffffff;
+    background-color: #bfbdbd;
+    transition: all 0.5s ease 0s;
+}
+
+.a_btn{
+    text-align: center;
+}
+
+a.userdel_btn{
+    color: black;
+    text-align: center;
+}
+
+a.userdel_btn:hover{
+    color: #9a9898;
+    transition: all 0.5s ease 0s;
+}
+
+
+/* フォローしてる人の投稿詳細 */
+.follow_btn{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.back_btn{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* 投稿編集 */
+.confirm_btn{
+    text-align: center;
+}
+
+/* いいね一覧 */
+.back{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.back:hover{
+    color: #b0afaf;
+    transition: all 0.5s ease 0s;
+}
+
+/* アカウント編集確認 */
+label.subttl{
+    display: block;
+}
+
+
+
+
+/* 管理者画面 */
+
+/* ナビ部分 */
+.header_mgt{
+    position: relative;
+}
+
+input.mgt_out{
+    margin-top: 17px;
+    position: absolute;
+    right: 0;
+}
+
+input.mgt_out:hover{
+    color: rgb(227, 228, 229);
+    transition: all 0.5s ease 0s;
+}
+
+/* フッター部分 */
+.footer_mgt{
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+    width: 100%;
+}
