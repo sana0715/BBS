@@ -1,4 +1,4 @@
-#機能
+#
 投稿者：新規作成機能、ログイン機能、パスワード再設定機能、投稿機能、投稿編集・削除機能、いいね機能、フォロー機能、自身のユーザー情報編集、削除、自分の投稿一覧、皆の投稿一覧、カテゴリー別投稿一覧。
 管理者：限定ログイン、全てのユーザー閲覧、全ての投稿閲覧。
 
@@ -8,9 +8,10 @@
 
 
 
-## About Laravel
+## 機能
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+投稿者：新規作成機能、ログイン機能、パスワード再設定機能、投稿機能、投稿編集・削除機能、いいね機能、フォロー機能、自身のユーザー情報編集、削除、自分の投稿一覧、皆の投稿一覧、カテゴリー別投稿一覧。
+管理者：限定ログイン、全てのユーザー閲覧、全ての投稿閲覧。
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
