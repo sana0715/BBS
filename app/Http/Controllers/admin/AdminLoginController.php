@@ -18,7 +18,7 @@ class AdminLoginController extends Controller
         $user_name = $request->input('user_name');
         $password = $request->input('password');
 
-        if($user_name == 'boxing' && $password == 'password'){
+        if($user_name == 'boxing' && $password == 'testtest'){
             $request->session()->put("auth_admin", true);
             return redirect('admin');
         }
