@@ -7,11 +7,11 @@
         <div class="overflow-hidden sm:rounded-lg">
             <!-- <main> -->
               <h4 class="h4">{{ Auth::user()->name }}さんの投稿</h4>
-                <div class="main_display">
-                  <!-- 投稿した時にアラートが表示される -->
+              <!-- 投稿した時にアラートが表示される -->
                   @if(session('message'))
                   <div class="alert alert-dark">{{session('message')}}</div>
                   @endif
+                <div class="main_display">
                 @forelse($posts as $post)
                 {{ csrf_field() }}
                 <div class="one_cont2" style="display: block;">
