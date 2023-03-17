@@ -1,4 +1,4 @@
-## BOXING related　(ボクシング　　リレイティド)
+## BOXING related　(ボクシング リレイティド)
 PHP自作
 
 ## 概要
